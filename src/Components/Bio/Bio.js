@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 
 import biopic from '../../assets/biopic1.jpeg'
 import classes from './Bio.module.css';
