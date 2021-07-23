@@ -1,0 +1,10 @@
+.apps {
+    padding: 3rem ;
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    background-color: bisque;
+    justify-content: space-around;
+    
+}

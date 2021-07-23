@@ -8,7 +8,7 @@ const Header = () => {
         <Fragment>
             <div  className={classes.header}>
                 <h1>PORTFOLIO</h1>
-                <span>Yves Faems</span>
+                <div>Yves Faems</div>
             </div>
         </Fragment>
     )
