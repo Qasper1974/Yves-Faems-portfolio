@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <Fragment>
             <div  className={classes.header}>
-                <h1>PORTFOLIO</h1>
+                <h1>Portfolio</h1>
                 <div>Yves Faems</div>
             </div>
         </Fragment>
