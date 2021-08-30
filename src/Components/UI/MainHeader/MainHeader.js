@@ -8,7 +8,7 @@ const MainHeader = () => {
 
     return (
         <Fragment>
-           <header>
+           <header className={classes.header}>
                <nav>
                    <ul>
                        <li><NavLink to="/Welcome">Welcome</NavLink></li>

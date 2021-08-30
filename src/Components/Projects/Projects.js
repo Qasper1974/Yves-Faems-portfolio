@@ -32,13 +32,15 @@ const Projects = (props) => {
     const displayedProjects = projectInfo.map(
         (project) => {
             return (
-                <div className={classes.parentdiv} key={project.key}>
-                    <div className={classes.div1}>{project.picUrl}</div>
-                    <div className={classes.div2}>
-                        <h2>{project.title}</h2>
-                        <p>{project.description}</p>
+                <section>
+                    <div className={classes.parentdiv} key={project.key}>
+                        <div className={classes.div1}>{project.picUrl}</div>
+                        <div className={classes.div2}>
+                            <h2>{project.title}</h2>
+                            <p>{project.description}</p>
+                        </div>
                     </div>
-                </div>
+                </section>
             )
     })
 

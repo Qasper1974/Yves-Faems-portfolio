@@ -1,6 +1,6 @@
 .apps {
     display: block;
-    position: relative;
+    position: static;
     padding-top: 1rem;
     font-size: 2rem;
     text-align: center;
