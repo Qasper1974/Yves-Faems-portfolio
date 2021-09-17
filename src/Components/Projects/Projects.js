@@ -7,7 +7,7 @@ const projectInfo = [
     {
         key: 1,
         title: "title1",
-        description: "description1",
+        description: "een nieuwe beschrijving",
         mainTechnologies: "html1",
         picUrl: "someAddress1"
     },

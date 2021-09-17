@@ -9,12 +9,11 @@ const MainHeader = () => {
     return (
         <Fragment>
            <header className={classes.header}>
-               <nav>
+               <nav className={classes.header__nav}>
                    <ul>
                        <li><NavLink to="/Welcome">Welcome</NavLink></li>
-                   </ul>
-                   <ul>
                        <li><NavLink to="/Projects">Projects</NavLink></li>
+                       <li><NavLink to="/Contact">Contact</NavLink></li>
                    </ul>
                </nav>
            </header>
