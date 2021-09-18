@@ -2,10 +2,12 @@ import React, {Fragment} from 'react';
 import {Route, Switch, Redirect} from 'react-router-dom';
 
 import MainHeader from './Components/UI/MainHeader/MainHeader';
-import Header from './Components/Header/Header';
+import Header from './Components/UI/PageTitle/PageTitle';
 import Bio from './Components/Bio/Bio';
 import Apps from './Components/Apps/Apps';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/ContactForm/ContactForm';
+
 
 function App() {
   return (
@@ -16,14 +18,21 @@ function App() {
                 <Redirect to="/Welcome" />
             </Route>
             <Route path="/Welcome">
-                <Header />
+                <Header title="Welcome"
+                        subtitle="Yves Faems" />
                 <Bio />
                 <Apps />
             </Route>
             <Route path="/Projects">
+            <Header title="Projects"
+                        subtitle="" />
                 <Apps />
                 < Projects />
-                <div>Hello</div>
+            </Route>
+            <Route path="/Contact">
+            <Header title="Contact"
+                        subtitle="Drop me a line!" />
+                <Contact />
             </Route>
         </Switch>
     </div>
