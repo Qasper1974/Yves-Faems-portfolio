@@ -27,7 +27,7 @@ const ContactForm = () => {
                         name="message"
                         placeholder="Your Question / Message" required></textarea>
                     <p></p>
-                    <button className={classes.form__send} type="submit">Send!</button>
+                    <button className={classes.form__send} type="submit">Send</button>
                 </form>
             </div>
         </Fragment>
