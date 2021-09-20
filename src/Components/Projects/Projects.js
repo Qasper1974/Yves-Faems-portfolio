@@ -52,7 +52,6 @@ const Projects = (props) => {
                             <h2>{project.title}</h2>
                             <p>{project.description}</p>
                             <p>{project.mainTechnologies}</p>
-                            <p>{project.description}</p>
                             <a href={project.netlifyUrl} 
                             target="_blank">Click here to check it out in a webbrowser!</a>
                         </div>

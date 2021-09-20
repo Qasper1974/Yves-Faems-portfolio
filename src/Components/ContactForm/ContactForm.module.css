@@ -1,3 +1,49 @@
+.div {
+    background-color: rgba(255, 228, 196, 0.55);
+    border-radius: 8px;
+    padding: 10%;
+}
 .form {
-    font-size: 5rem;
+    text-align: center;
+    display: block
+}
+
+.form__label {
+    display: block;
+}
+
+.form__input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form__send {
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.824);
+    color: black;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form__send:hover,
+.form__send:active {
+    width: 100%;
+    background-color: rgb(203, 147, 78);
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
