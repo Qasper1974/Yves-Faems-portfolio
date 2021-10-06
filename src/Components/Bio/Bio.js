@@ -17,7 +17,12 @@ const Bio = () => {
                     <p>Bootstrap</p>
                     <p>React, React Native</p>
                     <p>NodeJS, Express and MongoDB</p>
+                    <h3>Currently focusing on: </h3>
                     <p>Python</p>
+                    <p>SQL, POSTGRESQL</p>
+                    <p>SDLC and AGILE</p>
+                    <p>DevOps and CI/CD</p>
+                    <p>App deployment to Amazon AWS, Microsoft Azure and Google Cloud/Firestore</p>
             </div>
         </Fragment>
     )

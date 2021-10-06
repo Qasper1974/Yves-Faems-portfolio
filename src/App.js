@@ -21,12 +21,12 @@ function App() {
                 <Header title="Welcome"
                         subtitle="Yves Faems" />
                 <Bio />
-                <Apps />
+                {/* <Apps /> */}
             </Route>
             <Route path="/Projects">
             <Header title="Projects"
-                        subtitle="" />
-                <Apps />
+                        subtitle="Some of my apps" />
+                {/* <Apps /> */}
                 < Projects />
             </Route>
             <Route path="/Contact">
