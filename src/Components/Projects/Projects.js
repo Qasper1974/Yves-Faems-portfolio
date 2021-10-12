@@ -5,7 +5,7 @@ import classes from './Projects.module.css'
 
 import imagePCRGEN from '../../assets/PCRstart.png'
 import imageItinera from '../../assets/ItineraVocApp.png'
-import imagePortfolio from '../assets/my_portfolio_img.png'
+import imagePortfolio from '../../assets/my_portfolio_img.png'
 
 
 const projectInfo = [
