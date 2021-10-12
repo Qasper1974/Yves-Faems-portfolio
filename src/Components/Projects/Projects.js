@@ -24,15 +24,6 @@ const projectInfo = [
         picUrl: imageItinera,
         netlifyUrl: "https://wizardly-darwin-2fa9fc.netlify.app/",
         githubCodeAddress : "github code url"
-    },
-    {
-        key: 3,
-        title: "title3",
-        description: "description3",
-        mainTechnologies: "html3",
-        picUrl: "someAddress3",
-        netlifyUrl: "somehtppaddress",
-        githubCodeAddress : "github code url"
     }
 ]
 
