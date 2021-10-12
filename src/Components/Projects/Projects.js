@@ -5,6 +5,8 @@ import classes from './Projects.module.css'
 
 import imagePCRGEN from '../../assets/PCRstart.png'
 import imageItinera from '../../assets/ItineraVocApp.png'
+import imagePortfolio from '../assets/my_portfolio_img.png'
+
 
 const projectInfo = [
     {
@@ -23,6 +25,15 @@ const projectInfo = [
         mainTechnologies: "CSS, JavaScript",
         picUrl: imageItinera,
         netlifyUrl: "https://wizardly-darwin-2fa9fc.netlify.app/",
+        githubCodeAddress : "github code url"
+    },
+    {
+        key: 3,
+        title: "My Portfolio",
+        description: "My portfolio to showcase my projects",
+        mainTechnologies: "React, CSS, JavaScript",
+        picUrl: imagePortfolio,
+        netlifyUrl: "https://portfolio-yfaems.netlify.app",
         githubCodeAddress : "github code url"
     }
 ]
