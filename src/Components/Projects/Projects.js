@@ -6,6 +6,7 @@ import classes from './Projects.module.css'
 import imagePCRGEN from '../../assets/PCRstart.png'
 import imageItinera from '../../assets/ItineraVocApp.png'
 import imagePortfolio from '../../assets/my_portfolio_img.png'
+import imageSev from '../../assets/alphabetized_swahili_list.png'
 
 
 const projectInfo = [
@@ -24,11 +25,20 @@ const projectInfo = [
         description: "Latin to Dutch Vocabulary App",
         mainTechnologies: "CSS, JavaScript",
         picUrl: imageItinera,
-        netlifyUrl: "https://wizardly-darwin-2fa9fc.netlify.app/",
-        githubCodeAddress : "github code url"
+        netlifyUrl: "https://www.youtube.com/watch?v=Vg6K4pn_C8o",
+        githubCodeAddress : "https://github.com/Qasper1974/sev"
     },
     {
         key: 3,
+        title: "Swahili-English Vocabulary Tool",
+        description: "A Swahili to English Vocabulary App",
+        mainTechnologies: "Django, PostgreSQL, Docker, AWS",
+        picUrl: imageSev,
+        netlifyUrl: "https://portfolio-yfaems.netlify.app",
+        githubCodeAddress : "github code url"
+    },
+    {
+        key: 4,
         title: "My Portfolio",
         description: "My portfolio to showcase my projects",
         mainTechnologies: "React, CSS, JavaScript",
