@@ -7,7 +7,7 @@ import imagePCRGEN from '../../assets/PCRstart.png'
 import imageItinera from '../../assets/ItineraVocApp.png'
 import imagePortfolio from '../../assets/my_portfolio_img.png'
 import imageSev from '../../assets/alphabetized_swahili_list.png'
-
+import imageNetclone from '../../assets/netclone2.png'
 
 const projectInfo = [
     {
@@ -21,6 +21,15 @@ const projectInfo = [
     },
     {
         key: 2,
+        title: "Netflix clone",
+        description: "Website imitating Netflix",
+        mainTechnologies: "React, CSS, React-Youtube, Movie-Trailer, Axios, Firebase",
+        picUrl: imageNetclone,
+        netlifyUrl: "https://netclone-46cfe.web.app/",
+        githubCodeAddress : "https://github.com/Qasper1974/sev"
+    },
+    {
+        key: 3,
         title: "Dictionary App",
         description: "Latin to Dutch Vocabulary App",
         mainTechnologies: "HTML, CSS, JavaScript",
@@ -29,16 +38,16 @@ const projectInfo = [
         githubCodeAddress : "https://github.com/Qasper1974/sev"
     },
     {
-        key: 3,
+        key: 4,
         title: "Swahili-English Vocabulary Tool",
         description: "A Swahili to English Vocabulary App",
-        mainTechnologies: "Django, PostgreSQL, Docker, AWS",
+        mainTechnologies: "Python, Django, PostgreSQL, Docker, AWS",
         picUrl: imageSev,
         netlifyUrl: "https://www.youtube.com/watch?v=Vg6K4pn_C8o",
         githubCodeAddress : "github code url"
     },
     {
-        key: 4,
+        key: 5,
         title: "My Portfolio",
         description: "My portfolio to showcase my projects",
         mainTechnologies: "React, CSS, JavaScript",
